@@ -1,0 +1,47 @@
+lessm@LesiaKorol MINGW64 /d/Intita/Finaltest/Finaltest (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+lessm@LesiaKorol MINGW64 /d/Intita/Finaltest/Finaltest (main)
+$ git branch
+  branch1
+* main
+
+lessm@LesiaKorol MINGW64 /d/Intita/Finaltest/Finaltest (main)
+$ git log
+commit 3de96b1faf125992b224778ca1ca7d8243107280 (HEAD -> main, origin/main)
+Author: Lesia Korol <144686589+Lesia1982@users.noreply.github.com>
+Date:   Sat Oct 14 14:27:04 2023 +0300
+
+    Create newfile.txt
+
+commit c2b3119a81e7ad024ca5248857c7b4f3793d5bec
+Merge: 85719e2 32b0de6
+Author: Lesia1982 <lessmoonella@gmail.com>
+Date:   Sat Oct 14 14:12:19 2023 +0300
+
+    Fixed test.css
+
+commit 85719e2094d991c6940d15c7b8950e3159d8c200
+Author: Lesia1982 <lessmoonella@gmail.com>
+Date:   Sat Oct 14 14:07:19 2023 +0300
+
+    Changed test.css
+
+commit 32b0de644465ce447b70cf5241185246a85f2fb4 (origin/branch1, branch1)
+Author: Lesia1982 <lessmoonella@gmail.com>
+Date:   Sat Oct 14 14:01:37 2023 +0300
+
+
+lessm@LesiaKorol MINGW64 /d/Intita/Finaltest/Finaltest (main)
+$ git log --merges
+commit c2b3119a81e7ad024ca5248857c7b4f3793d5bec
+Merge: 85719e2 32b0de6
+Author: Lesia1982 <lessmoonella@gmail.com>
+Date:   Sat Oct 14 14:12:19 2023 +0300
+
+    Fixed test.css
+
